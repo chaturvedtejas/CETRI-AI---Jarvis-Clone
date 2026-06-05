@@ -36,3 +36,4 @@ share/
 
 # Build artifacts
 CETRI_AI_Assistant.exe
+*.zip
