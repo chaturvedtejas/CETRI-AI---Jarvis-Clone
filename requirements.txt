@@ -1,0 +1,7 @@
+openai-whisper
+pyttsx3
+SpeechRecognition
+colorama
+psutil
+requests
+# tkinter is standard library
