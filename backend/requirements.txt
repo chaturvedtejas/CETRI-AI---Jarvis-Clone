@@ -1,0 +1,67 @@
+# CETRI Backend Requirements
+
+# Web Framework
+fastapi==0.136.3
+uvicorn[standard]==0.49.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+alembic==1.13.1  # Database migrations
+
+# Authentication & Security
+PyJWT==2.13.0
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.1  # Better password hashing (TODO: replace SHA-256)
+python-dotenv==1.2.2
+
+# Data Validation
+pydantic==2.13.4
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# AI & ML (Future phases)
+openai==1.28.0  # OpenAI GPT API
+langchain==0.1.9  # LLM framework (Phase 2)
+langchain-openai==0.0.5
+
+# Vector DB & RAG (Phase 2)
+chromadb==0.4.17  # Vector database
+sentence-transformers==2.2.2  # Embeddings
+
+# Document Processing (Phase 2)
+PyPDF2==3.0.1  # PDF text extraction
+python-docx==1.1.0  # DOCX support
+openpyxl==3.1.5  # XLSX support
+Pillow==11.0.0  # Image processing
+
+# Async & Performance
+aiohttp==3.9.1
+httpx==0.25.1
+
+# Monitoring & Logging (Phase 3)
+prometheus-client==0.19.0  # Metrics
+python-json-logger==2.0.7  # JSON logging
+sentry-sdk==1.39.1  # Error tracking
+
+# Rate Limiting (Phase 1)
+slowapi==0.1.9
+
+# Testing (Phase 3)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.1
+
+# Development
+black==23.12.1  # Code formatter
+flake8==6.1.0  # Linter
+mypy==1.7.1  # Type checker
+
+# Utils
+python-slugify==8.0.1
+shortuuid==1.0.11  # Generate short unique IDs
+
+# WebSocket (already included with FastAPI)
+# websockets==12.0
