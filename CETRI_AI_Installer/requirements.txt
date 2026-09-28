@@ -1,4 +1,0 @@
-openai-whisper
-pyttsx3
-SpeechRecognition
-# tkinter is standard library

@@ -1,0 +1,8 @@
+{
+  "name": "CETRI AI - Jarvis Clone",
+  "description": "CETRI Intelligent AI Operating Assistant inspired by JARVIS with voice recognition, text-to-speech, system monitoring, memory, tools, and RAG knowledge base.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
